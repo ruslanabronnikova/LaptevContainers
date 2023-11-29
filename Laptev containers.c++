@@ -14,20 +14,20 @@ class Rand
 public:
     Rand()
     {
-        int dataSize, i, j;
+        int sizeOfData, i, j;
 
         double dataElement;
 
-        std::cin >> dataSize;
+        std::cin >> sizeOfData;
 
-        for (i = 0; i < dataSize; i++)
+        for (i = 0; i < sizeOfData; i++)
         {
             std::cin >> dataElement;
 
             inputData.push_back(dataElement);
         }
 
-        for (j = 0; j < dataSize; j++)
+        for (j = 0; j < sizeOfData; j++)
         {
             std::cin >> dataElement;
 
